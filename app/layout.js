@@ -1,8 +1,16 @@
 import Logo from "@/_components/Logo";
 import Navigation from "@/_components/Navigation";
 
+import { Inter } from "next/font/google";
+
 // Import global css
 import "@/_styles/globals.css";
+
+// Setting font
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+});
 
 // HTML title can be set from here
 export const metadata = {
@@ -16,7 +24,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="m-5">
+      <body className={`${inter.className} m-5 `}>
         <Logo />
 
         <Navigation />
