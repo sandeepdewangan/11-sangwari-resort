@@ -16,3 +16,10 @@
 ### Installing Next
 
 `npx create-next-app@latest`
+
+### Technology Decisions
+
+Framework: NextJs
+UI State Management: Context API
+Db: Supabase
+Styling: Tailwind
