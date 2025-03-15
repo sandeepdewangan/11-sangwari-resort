@@ -23,3 +23,4 @@ Framework: NextJs
 UI State Management: Context API
 Db: Supabase
 Styling: Tailwind
+Icons: https://heroicons.com/
