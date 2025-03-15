@@ -3,8 +3,7 @@ import Navigation from "./components/Navigation";
 export default function Home() {
   return (
     <div>
-      <h1>The Sangwari Resort</h1>
-      <Navigation />
+      <h1>Welcome!</h1>
     </div>
   );
 }
