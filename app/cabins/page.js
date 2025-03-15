@@ -1,3 +1,4 @@
+import Counter from "@/components/Counter";
 import React from "react";
 
 const page = async () => {
@@ -10,6 +11,10 @@ const page = async () => {
       {data.map((d) => (
         <p>{d.title}</p>
       ))}
+
+      {/* Client component */}
+      {/* We can pass data from server to client */}
+      <Counter data={data} />
     </div>
   );
 };
