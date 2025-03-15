@@ -6,8 +6,11 @@ import "@/_styles/globals.css";
 
 // HTML title can be set from here
 export const metadata = {
-  title: "The Sangwari Resort",
-  description: "Chhattisgarh's Best Water Villa Resort",
+  title: {
+    template: "%s The Sangwari Resort",
+    default: "Welcome, The Sangwari Resort",
+  },
+  description: "Chhttisgarh's Premium Resort, This is important field for SEO",
 };
 
 export default function RootLayout({ children }) {
